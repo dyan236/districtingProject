@@ -1,0 +1,91 @@
+.detailedContainer{
+    text-align: center;
+    overflow: auto;
+}
+
+.plotButton{
+    padding: 12px;
+    border-radius: 6px;
+    color: white;
+    background-color: orangered;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.plotButton:hover{
+    background-color: #ff7c4d;
+}
+
+.plotContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.plotBackground{
+    position: relative;
+    min-width: 900px;
+    width: 50%;
+    min-height: 600px;
+    height: 75%;
+    border-radius: 12px;
+    background-color: white;
+    margin: auto;
+    margin-top: 1%;
+    overflow: auto;
+}
+
+.detailBackground{
+    position: relative;
+    min-width: 750px;
+    width: 25%;
+    min-height: 600px;
+    height: 75%;
+    border-radius: 12px;
+    background-color: white;
+    margin: auto;
+    margin-top: 1%;
+    overflow: auto;
+}
+
+.backButtonPlot{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.backButtonPlot:hover{
+    background-color: #4d4dff;
+}
+
+table{
+    display: inline;
+    border-collapse: collapse;
+}
+
+.detailedTd{
+    background-color: rgba(255, 255, 255, 0.25);
+    border: none;
+    text-align: left;
+}
+
+.sectionalTh{
+    text-align: left;
+    font-size: x-large;
+    color: lightgray;
+}
+

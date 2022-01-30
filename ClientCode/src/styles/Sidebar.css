@@ -1,0 +1,180 @@
+.sideWindow{
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 750px;
+    width: 40%;
+    height: 85%;
+}
+
+.sidebarBackground{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 100%;
+    width: 100%;
+}
+
+.sideContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.titleText{
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.tabBar{
+    text-align: center;
+}
+
+.tabButton{
+    background-color: transparent;
+    width: 25%;
+    border: solid 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: slateblue;
+    text-decoration: underline;
+    padding: 12px;
+    font-weight: bold;
+    font-size: medium;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.tabButton:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.tabButtonActive{
+    background-color: dodgerblue;
+    width: 25%;
+    border: solid 1px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    color: white;
+    text-decoration: underline;
+    padding: 12px;
+    font-weight: bold;
+    font-size: medium;
+    border-color: gray;
+    cursor: pointer;
+}
+
+.tabButtonActive:hover {
+    background-color: slateblue;
+}
+
+.sidebarContainer{
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.hideButton{
+    position: absolute;
+    top: 53%;
+    left: -40px;
+    width: 40px;
+    height: 100px;
+    color: gray;
+    font-size: xx-large;
+    font-weight: bold;
+    border-color: black;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+}
+
+.hideButton:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.showButton{
+    position: absolute;
+    top: 45%;
+    right: 0;
+    width: 40px;
+    height: 100px;
+    color: gray;
+    font-size: xx-large;
+    font-weight: bold;
+    border-color: black;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.75);
+    cursor: pointer;
+}
+
+.showButton:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.jobSelect{
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    padding: 12px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.rechooseButton{
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 6px;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.jobButton{
+    position: absolute;
+    top: 24px;
+    right: 12px;
+    color: white;
+    background-color: darkslategray;
+    border-radius: 6px;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 184px;
+}
+
+.rechooseButton:hover{
+    background-color: #66b3ff;
+}
+
+.jobButton:hover{
+    background-color: gray;
+}
+
+.jobOption{
+    background-color: white;
+    border-top: solid 1px;
+    cursor: pointer;
+    padding: 12px;
+}
+
+.jobOption:hover{
+    background-color: gray;
+}
+
+.loadingOverlay2{
+    position: fixed;
+    height: 100%;
+    width: 40%;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}

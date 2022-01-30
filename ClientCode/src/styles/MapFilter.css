@@ -1,0 +1,69 @@
+.mapFilterDiv{
+    top: 0;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.checkboxContainerMapFilter {
+    display: block;
+    position: relative;
+    padding-top: 1px;
+    padding-left: 25px;
+    margin-left: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkboxContainerMapFilter input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmarkMapFilter {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: solid 1px;
+    border-color: gray;
+}
+
+.checkboxContainerMapFilter:hover input ~ .checkmarkMapFilter {
+    background-color: #ccc;
+}
+
+.checkboxContainerMapFilter input:checked ~ .checkmarkMapFilter {
+    background-color: mediumseagreen;
+}
+
+.checkmarkMapFilter:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.checkboxContainerMapFilter input:checked ~ .checkmarkMapFilter:after {
+    display: block;
+}
+
+.checkboxContainerMapFilter .checkmarkMapFilter:after {
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
