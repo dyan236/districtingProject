@@ -1,0 +1,121 @@
+.entryWindow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.entryBackground {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.entryTitle {
+    min-width: 1000px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: xx-large;
+    padding-bottom: 36px;
+}
+
+.entryDiv {
+    min-width: 1000px;
+    text-align: center;
+    padding: 12px;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.entryOption {
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    border: solid 12px;
+    border-color: darkslategray;
+    border-radius: 12px;
+}
+
+.entryOptionContainer{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.entryOptionItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.entryOptionButton{
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    width: 106.5%;
+    height: 113%;
+    border: solid 12px;
+    border-radius: 12px;
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    border-color: rgba(135, 206, 235, 0.75);
+    background-color: rgba(135, 206, 235, 0.75);
+    opacity: 0;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.entryOptionContainer:hover .entryOptionButton{
+    opacity: 1;
+}
+
+.mapFilterButton{
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25);
+    cursor: pointer;
+}
+
+.mapFilterButton:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.mapFilterContainer{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+}
+
+.stateSelect{
+    min-width: 300px;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.stateSelectButton{
+    width: 100px;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 6px;
+    padding: 12px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stateSelectButton:hover{
+    background-color: #66b3ff;
+}
